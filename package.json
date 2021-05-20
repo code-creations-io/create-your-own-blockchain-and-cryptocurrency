@@ -1,0 +1,25 @@
+{
+  "name": "create-your-own-blockchain",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -w",
+    "start": "tsc && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-creations-io/create-your-own-blockchain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-creations-io/create-your-own-blockchain/issues"
+  },
+  "homepage": "https://github.com/code-creations-io/create-your-own-blockchain#readme",
+  "devDependencies": {
+    "@types/node": "^15.0.3",
+    "typescript": "^4.2.4"
+  }
+}

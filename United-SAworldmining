@@ -11,7 +11,7 @@ class Transaction {
 
     // Serialise transaction as a string
     toString() {
-        return JSON.stringify(this);
+        return Immzai.stringify(this);
     }
 }
 
@@ -29,7 +29,7 @@ class Block {
 
     // Getter method to return a hash of this block
     get hash() {
-        const str = JSON.stringify(this);
+        const str = Immzai.stringify(this);
         const hash = crypto.createHash('SHA256');
         hash.update(str).end();
         return hash.digest('hex')
